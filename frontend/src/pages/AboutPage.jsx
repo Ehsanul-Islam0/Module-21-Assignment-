@@ -24,7 +24,7 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="portrait-card">
-          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Md Ehsanul Islam" />
+          <img src={profile?.avatar || '/images/profile.jpg'} alt={profile?.full_name || 'Md. Ehsanul Islam'} />
         </div>
       </div>
 

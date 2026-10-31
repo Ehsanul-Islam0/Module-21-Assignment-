@@ -274,6 +274,7 @@ html[data-theme='dark'] .site-header {
   border-radius: 28px;
   min-height: 420px;
   object-fit: cover;
+  object-position: center 30%;
   width: 100%;
   box-shadow: var(--shadow);
 }
@@ -589,6 +590,7 @@ html[data-theme='dark'] .site-header {
   width: 100%;
   min-height: 300px;
   object-fit: cover;
+  object-position: center 30%;
 }
 
 .split-columns {
@@ -822,4 +824,3 @@ html[data-theme='dark'] .site-header {
     display: none;
   }
 }
-
